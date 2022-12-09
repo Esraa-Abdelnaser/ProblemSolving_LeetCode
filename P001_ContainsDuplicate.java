@@ -4,7 +4,7 @@ import java.util.*;
 
 public class P001_ContainsDuplicate {
 
-    public static boolean containsDuplicate(int[] nums) {
+    public boolean containsDuplicate(int[] nums) {
         Set<Integer> setNums = new HashSet<Integer>();
         boolean chk = false;
         for (int i = 0; i < nums.length; i++) {
